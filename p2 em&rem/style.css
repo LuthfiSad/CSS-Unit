@@ -1,0 +1,77 @@
+/* mengubah default font-size root / html */
+/* :root {
+  font-size: 12px;
+} */
+
+body {
+  color: #333;
+  text-align: center;
+  background-color: #eee;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  min-height: 2000px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.typographi {
+  display: flex;
+}
+
+.typographi .col {
+  flex: 1;
+  margin: 0 0.5em;
+  padding: 0 0.5em;
+}
+
+/* em */
+.col--em{
+  /* font-size parent */
+  font-size: 10px;
+}
+.col--em h2{
+  /* em = relative terhadap font-size parentnya */
+  /* jika 2em maka 2 x 10px(dari font-size parent) = 20px */
+  font-size: 2em;
+}
+.col--em p{
+  /* jika 1.5em maka 1.5 x 10px(dari font-size parent) = 15px */
+  font-size: 1.5em;
+}
+
+/* rem */
+.col--rem h2{
+  /* rem = relative terhadap font-size root / html (default nya 16px) */
+  /* jika 2rem maka 2 x 16px(dari font-size default root / html) = 32px */
+  font-size: 2rem;
+}
+.col--rem p{
+  /* jika 1.5rem maka 1.5 x 16px(dari font-size default root / html) = 24px */
+  font-size: 1.5rem;
+}
+
+
+/* em margin and padding */
+.btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  padding: 1em 3em;
+  /* tidak memakai em karena marginnya akan berbeda-beda ketika salah satu element font-sizenya di ubah */
+  margin: 0 1.5rem;
+}
+.btn-sm{
+  /* akan menjadi setengah dari default, yaitu 8px */
+  font-size: 0.5em;
+}
+.btn-lg{
+  font-size: 1.5em;
+}

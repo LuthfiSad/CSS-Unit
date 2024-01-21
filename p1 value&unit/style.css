@@ -1,0 +1,23 @@
+/* contoh value & unit */
+/* margin : 50px; font-size : 100px */
+/* contoh value diatas = 50, 100 */
+/* contoh unit diatas = %, px */
+
+/* value yang bisa di kasih = */
+/* integer, number, percentage, dimension */
+
+/* dimenstion terdiri dari =  */
+/* angle, time, resolution, length */
+
+/* 1. angle = sudut */
+/* unit angle = deg (degrees), rad (radians), grad (gradians), turn */
+
+/* 2. tima = untuk transisi / animasi */
+/* unit time = s (second), ms (milisecond) */
+
+/* 3. resolution = resolusi (biasanya untuk printing seperti pdf, excel, doct, dll) */
+/* unit resolution = dpi (dotperinch), dpcm (dotpercentimeter), dppx (dotperpixel) */
+
+/* 4. length = ukuran, terbagi menjadi dua, yaitu absolute dan relative */
+/* unit length absolute : px, pt, pc, cm, mm, in : contoh tersedia di folder img */
+/* unit length relative : %, em, rem, ch, vh, vw, vmin, vmax */

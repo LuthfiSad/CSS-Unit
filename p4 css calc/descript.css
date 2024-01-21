@@ -1,0 +1,24 @@
+/* nilai yang bisa di kelola calc() yaitu */
+/* legth, angle, time, percentage, number */
+/* contoh :
+.properti {
+    width: calc(calc(100% / 3) - calc(1rem * 2));
+}
+atau jika ingin simple
+.properti {
+    width: calc((100% / 3) - (1rem * 2));
+}
+dan calc() sudah menggunakan sistem operasi matematika : tandakurung, perkalian, pembagian, penjumlahan , pengurangan
+.properti {
+    width: calc(100% / 3 - 1rem * 2);
+}
+*/
+
+/* contoh lagi
+:root{
+    --header-height: 32px;
+}
+.properti{
+    height: calc(100vh - var(--header-height));
+}
+*/

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* em */
+      .boxem {
+        font-size: 30px;
+      }
+      .boxem h1 {
+        /* em = relative terhadap font-size parentnya */
+        /* jika 1em maka 1 x 30px(dari font-size parent) = 30px */
+        font-size: 1em;
+      }
+      .boxem p {
+        /* jika 2em makan 2 x 30px = 60px */
+        font-size: 2em;
+      }
+
+      /* rem */
+      html {
+        font-size: 40px;
+      }
+      .boxrem {
+        font-size: 30px;
+      }
+      .boxrem h1 {
+        /* rem = relative terhadap font-size html / root */
+        /* jika 1rem maka 1 x 40px(dari font-size html) = 40px */
+        font-size: 1rem;
+      }
+      .boxrem p {
+        /* jika 2rem makan 2 x 40px = 80px */
+        font-size: 2rem;
+      }
+
+      /* ch */
+      .boxch {
+        font-size: 16px;
+        /* relative terhadap width karakter 0 */
+        /* jika 60ch maka besar width pada karakter 0 nya = 0x60 */
+        width: 60ch;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxem">
+      <h1>Hello World!</h1>
+      <p>Web Programming Anjas</p>
+    </div>
+    <div class="boxrem">
+      <h1>Hello World!</h1>
+      <p>Web Programming Anjas</p>
+    </div>
+    <div class="boxch">
+      <!-- gambaran 0x60 -->
+      <p>000000000000000000000000000000000000000000000000000000000000</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odit molestiae neque dolore atque. Quaerat repellendus facere pariatur aperiam quidem doloribus quia placeat dicta magnam minus. Vero architecto vitae consequuntur
+        pariatur. Hic reiciendis, fugit nihil in tempora tenetur, doloremque ipsum assumenda ab iusto inventore quasi laudantium odio sunt. Ipsa laudantium in rem adipisci itaque odit, dignissimos eum facilis aliquam esse odio laboriosam
+        illo obcaecati consequatur nihil ducimus cum officiis debitis possimus! Delectus laboriosam nulla fugiat fuga sequi commodi doloribus perferendis neque quaerat voluptatem, eos sit necessitatibus sapiente rem maxime labore sint earum
+        reprehenderit ducimus accusantium. Deserunt ad a mollitia vitae.
+      </p>
+    </div>
+  </body>
+</html>

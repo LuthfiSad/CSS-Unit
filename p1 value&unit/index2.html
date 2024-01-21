@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      /* vh & vw */
+      .boxvhvw {
+        /* vh & vw = relative terhadap tinggi(vh) dan lebar(vw) dari viewport */
+        /* vh & vw bernilai % */
+        background-color: blue;
+        /* artinya height 100%  dari viewport */
+        height: 100vh;
+        /* artinya width 50%  dari viewport */
+        width: 50vw;
+      }
+      .boxvminvmax {
+        /* vmin & vmax = relative terhadap tinggi(vmin) dan lebar(vmax) dari maximal dan minimal viewport */
+        /* vmin & vmax bernilai % */
+        background-color: red;
+        /* artinya height 100%  dari maximal viewport */
+        height: 100vmax;
+        /* artinya width 100%  dari maximal viewport */
+        width: 100vmax;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxvhvw"></div>
+    <div class="boxvminvmax"></div>
+    <h1>Hello World</h1>
+  </body>
+</html>
